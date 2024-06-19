@@ -1,0 +1,155 @@
+.addExpenses-wrapper{
+	width: 100%;
+	height: 60vh;
+	padding: 2% 1%;
+}
+.expense-wrapper{
+	width: 100%;
+	height: fit-content;
+	min-height: 18rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	border: 1px solid black;
+	padding-bottom: 10px;
+}
+.addExpenses-wrapper > label{
+	font-size: 2rem;
+    font-family: sans-serif;
+}
+.radio{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	padding: 10px;
+	font-family: sans-serif;
+}
+.expense-wrapper-firstColumn input,.expense-wrapper-firstColumn textarea{
+	width: 18rem;
+	height: 2.5rem;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	padding: 10px;
+	font-size: 20px;
+}
+.expense-wrapper-firstColumn input[type="file"]{
+	padding: 0;
+	font-size: 17px;
+}
+.expense-wrapper-firstColumn textarea{
+	resize: none;
+	height: 6rem;
+}
+.expense-wrapper-firstRow{
+	display: grid;
+	grid-template-columns: auto auto;
+	min-height: 40vh;
+	width: 100%;
+}
+.expense-wrapper-firstColumn{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: fit-content;
+	width: 100%;
+}
+.expense-element{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.expense-element > label{
+	font-size: 1.3rem;
+	display: inline-block;
+	width: 12rem;
+	height: 100%;
+}
+.expense-element > button{
+	min-width: 10rem;
+	height: 2.5rem;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.expense-wrapper-secondColumn{
+	padding: 0 10px;
+	grid-column: 2;
+	grid-row: 1/span 2;
+	height: 100%;
+	width: 45vw;
+}
+.expense-wrapper-secondColumn > .expense-element > label{
+	font-size: 2.5rem;
+	font-family: serif;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0.5rem;
+}
+.expense-element-category{
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: repeat(7,auto);
+}
+.radio-element{
+	height: 2rem;
+	margin-top: 5px;
+}
+input[type='radio']:checked + label{
+	font-size: 1.35rem;
+}
+.radio-element > label{
+	display: inline-block;
+	width: fit-content;
+	min-width: 9rem;
+	font-size: 1.3rem;
+	font-family: revert;
+	cursor: pointer;
+}
+.radio-element > label:hover{
+	font-size: 1.35rem;
+}
+.category-input{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.category-input > label{
+	font-size: 2rem;
+}
+.category-input input{
+	width: 18rem;
+	height: 2.5rem;
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 20px;
+	display: block;
+}
+.category-input button{
+	min-width: 10rem;
+	height: 2.5rem;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.category-input form{
+	width: 40vw;
+	padding: 0;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 6.2rem;
+}
+
+

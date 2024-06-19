@@ -1,0 +1,76 @@
+.filter-body{
+	width: 97.4%;
+}
+form{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	background-color: lime;
+	height: 4rem;
+	padding: 1%;
+}
+form button{
+	font-size: 1.2rem;
+	cursor: pointer;
+	height: 2.5rem;
+	margin-left: 1rem;
+	width: 5rem;
+}
+.filter-dropdown{
+	width: 15rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.filter-dropdown label{
+	width: 15rem;
+	font-size: 1.45rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	
+}
+
+.filter-dropdown select{
+	width: 8rem;
+	height: 2.3rem;
+	font-size: 1.3rem;
+	text-align: center;
+	border-radius: 0.5rem 0 0.5rem 0;
+	border: 1px solid black;
+	cursor: pointer;
+}
+.date-element{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.date-element label{
+	width: 5rem;
+	font-size: 1.3rem;
+	display: block;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.filter-option-element input, .date-element input{
+	font-size: 1.2rem;
+	border-radius: 5px;
+	width: 13.2rem;
+	height: 2.3rem;
+	padding-left: 1rem;
+	font-size: 1.3rem;
+	cursor: pointer;
+}
+.filter-option-element{
+	margin-left: 1rem;
+}
+.date-picker{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 1.2rem;
+}
+.date-element input{
+	height: 2rem;
+}

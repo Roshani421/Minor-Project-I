@@ -1,0 +1,60 @@
+.addIncome-wrapper{
+	width: 100%;
+	height: 62vh;
+	padding: 2% 1%;
+}
+.income-wrapper{
+	width: 100%;
+	height: fit-content;
+	min-height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	border: 1px solid black;
+	padding: 10px;
+}
+.addIncome-wrapper > label{
+	font-size: 2rem;
+    font-family: sans-serif;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 70%;
+	padding: 10px;
+	font-family: sans-serif;
+}
+form button{
+	min-width: 10rem;
+	height: 2.5rem;
+	font-size: 1.3rem;
+	cursor: pointer;
+}
+.income-element{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.income-element input,.income-element textarea{
+	width: 18rem;
+	height: 2.5rem;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	padding: 10px;
+	font-size: 20px;
+}
+.income-element textarea{
+	resize: none;
+	height: 10rem;
+}
+.income-element > label{
+	font-size: 1.3rem;
+	display: inline-block;
+	width: 12rem;
+	height: 100%;
+}

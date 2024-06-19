@@ -1,0 +1,163 @@
+		@font-face{
+			src: url(../FONTS/ZenTokyoZoo-Regular.ttf);
+			font-family: Zen Tokyo Zoo;
+		}
+		*{
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+			overflow: hidden;
+		}
+		body{
+			background-color: #ECE6E6;
+		}
+		.login-body{
+			background-color: white;
+			height: 100vh;
+			width: 50vw;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			border: 1px solid black;	
+		}
+		.login-elements{
+			width: 80%;
+			font-size: 20px;
+			margin-bottom: 1rem;
+			font-family: sans-serif;
+		}
+		.login-header{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 4rem;
+			margin-top: 2rem;
+			margin-bottom: 4rem;
+			font-family: serif;
+		}
+		.sign-up{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin-top: 1rem;
+			font-family: cursive;
+			font-size: 140%;
+		}
+		.sign-up > a{
+			text-decoration: none;
+			color: #FF0F0F;
+			font-family: sans-serif;
+			margin-left: 3%;
+			font-size: 24px;
+		}
+		.sign-up > a:hover{
+			color: black;
+		}
+		input[type='email'],input[type='text'],input[type='password']{
+			width: 80%;
+			height: 3rem;
+			padding: 0 15px;
+			font-size: 20px;
+			border: 2px solid #B1ACAC;
+			border-radius: 30px 30px;
+		}
+		label{
+			font-family: sans-serif;
+			font-size: 25px;
+		}
+		input[type='email'],input[type='text'],input[type='password'],label{
+			display: block;
+			position: relative;
+			left: 10%;
+			margin-bottom: 1%;
+		}
+		button{
+			display: block;
+			width: 30%;
+			height: 3rem;	
+			border: 1px solid black;		
+			border-radius: 25px;
+			cursor: pointer;
+			margin: auto;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			font-size: 120%;
+			background-color: #3B31FC;
+			color: white;
+		}
+		input:focus{
+			border: 3px solid blue;
+		}
+		#bodyContainer{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#leftContainer{
+			height: 100vh;
+			width: 50vw;
+			background-image: url(../Images/kharcha.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		#formContainer{
+			height: 100vh;
+			width: 50vw;
+		}
+		.left-header{
+			font-family: 'Zen Tokyo Zoo', cursive;
+			font-size: 70px;
+			color: white;
+		}
+		.flex-row{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			left: 13%;
+			margin-top: -2%;
+		}
+		#showPassword{
+			margin-right: -10%;
+			margin-top: -0.9%;
+			height: 20px;
+			width: 40px;
+		}
+		.errorMsg{
+			height: 7%;
+			width: 64%;
+			font-size: 30px;
+			background-color: #FF7272;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		@media screen and (max-width: 1000px) {
+			#leftContainer{
+				width: 0;
+			}
+			#formContainer{
+				width: 100vw;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.login-body{
+				width: 80vw;
+			}
+			.errorMsg{
+				font-size: 26px;
+			}
+			.flex-row{
+				position: relative;
+				left: 8%;
+			}
+		}
